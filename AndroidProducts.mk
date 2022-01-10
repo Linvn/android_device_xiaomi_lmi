@@ -8,5 +8,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/titan_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    titan_lmi-userdebug \
-    titan_lmi-eng
+    titan_lmi-userdebug

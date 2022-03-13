@@ -18,7 +18,6 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 NAD_BUILD_TYPE := OFFICIAL
 USE_GAPPS ?= true
 USE_AOSP_CLOCK := true
-USE_LAWNCHAIR := true
 USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
 TARGET_FOD_ANIMATIONS := true

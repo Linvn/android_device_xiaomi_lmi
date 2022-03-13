@@ -23,6 +23,7 @@ USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
 TARGET_FOD_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_FOD_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.

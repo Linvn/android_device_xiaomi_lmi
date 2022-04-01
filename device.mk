@@ -263,8 +263,7 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # IFAA manager
-PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+    include device/xiaomi/extras/ifaa.mk
 
 # IPACM
 PRODUCT_PACKAGES += \

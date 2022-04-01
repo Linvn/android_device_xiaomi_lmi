@@ -32,4 +32,7 @@
 
     <!-- UDFPS recognizing animation vertical position offset -->
     <dimen name="udfps_animation_offset">35dp</dimen>
+
+    <!-- With the large clock, move up slightly from the center -->
+    <dimen name="keyguard_large_clock_top_margin">-152dp</dimen>
 </resources>

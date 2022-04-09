@@ -31,6 +31,9 @@
         <!-- Whether to show VoLTE icon in the status bar -->
     <bool name="config_display_volte">false</bool>
 
+        <!-- Udfps vendor code -->
+    <integer name="config_udfpsVendorCode">22</integer>
+
         <!-- StatusBar burn-in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
     <integer name="config_shift_interval">50</integer>

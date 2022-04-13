@@ -263,7 +263,7 @@ PRODUCT_PACKAGES += \
 
 # IFAA manager
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+    IFAAService
 
 # IPACM
 PRODUCT_PACKAGES += \

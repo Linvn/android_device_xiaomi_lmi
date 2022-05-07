@@ -95,24 +95,10 @@ void vendor_load_properties() {
     std::string region = android::base::GetProperty("ro.boot.hwc", "");
     std::string product = android::base::GetProperty("ro.boot.product.hardware.sku", "");
 
-    if (region == "CN") {
-        if (product == "pro") {
-            set_device_props(
-                fp,
-                fp_desc,
-                "Redmi", "lmipro", "Redmi K30 Pro Zoom Edition");
-        } else {
-            set_device_props(
-                fp,
-                fp_desc,
-                "Redmi", "lmi", "Redmi K30 Pro");
-        }
-    } else {
-        set_device_props(
-            fp,
-            fp_desc,
-            "POCO", "lmi", "POCO F2 Pro");
-    }
+    set_device_props(
+        fp,
+        fp_desc,
+        "Redmi", "lmi", "Redmi K30 Pro");
 
     load_dalvik_properties();
 }

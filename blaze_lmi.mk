@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 WITH_GAPPS = true
+USE_GAPPS = true
 BLAZE_MAINTAINER := Lin
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true

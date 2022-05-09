@@ -14,6 +14,8 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 # Inherit some common blaze stuff.
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES = 1080
+
 WITH_GAPPS = true
 USE_GAPPS = true
 BLAZE_MAINTAINER := Lin
